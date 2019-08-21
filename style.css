@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgb(7, 223, 0);
+    width: 100%;
+    height: 10vh;
+}
+img{
+    margin: 0;
+    padding: 0;
+    
+    height: 40px;
+}
