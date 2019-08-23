@@ -12,6 +12,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12px 120px 18px;
+    box-sizing: border-box;
 }
 
 img {
@@ -32,8 +34,11 @@ section {
     display: flex;
     padding: 8px 0 0;
     margin: 0;
-    height: 40px;
+    height: 50px;
     align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 859.78px;
 }
 
 .sec1 {
@@ -45,42 +50,16 @@ section {
     padding: 412px 80px 0px;
 }
 
-.sec2 {
-    background: url('./elementos_Graf/Nuestros-aliados_img.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.nav>span,
+i {
+    margin: 0 8px;
+    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px;
 }
 
-.sec2 h1 {
+.aqui {
+    background: #0264fb;
     text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    padding: 95px 0px 24px;
-    font-size: 35px;
-}
-
-.secText_testimonios h1 {
-    text-align: center;
-    color: #0264fb;
-    padding-top: 95px;
-    padding-bottom: 24px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.secText_footer {
-    background: url('./elementos_Graf/background_footer.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.sec4 h1 {
-    text-align: center;
-    color: #0264fb;
-    padding-top: 95px;
-    padding-bottom: 24px;
-    font-family: 'Montserrat', sans-serif;
     height: 62px;
     width: 174px;
     border-radius: 50px 0 50px 0;
@@ -135,4 +114,42 @@ h2 {
 .sec1 div h2 {
     font-weight: lighter;
     font-size: 5vw;
+}
+
+.sec2 {
+    background: url('./elementos_Graf/Nuestros-aliados_img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sec2 h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 95px 0px 24px;
+    font-size: 35px;
+}
+
+.secText_testimonios h1 {
+    text-align: center;
+    color: #0264fb;
+    padding-top: 95px;
+    padding-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.secText_footer {
+    background: url('./elementos_Graf/background_footer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sec4 h1 {
+    text-align: center;
+    color: #0264fb;
+    padding-top: 95px;
+    padding-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
