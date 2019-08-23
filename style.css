@@ -5,12 +5,12 @@ body {
 }
 
 header {
-    background: rgb(7, 223, 0);
+    background: #2de115;
     width: 100%;
-    height: 10vh;
+    height: 83px;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -21,10 +21,11 @@ header {
 }
 
 img {
-    margin: 0;
+    margin: 8px 0 0;
     padding: 0;
     height: 40px;
-    display: inline-block;
+    width: 169.94px;
+    /* display: inline-block; */
 }
 
 section {
@@ -35,7 +36,7 @@ section {
 
 .nav {
     display: flex;
-    padding: 0;
+    padding: 8px 0 0;
     margin: 0;
     height: 40px;
     align-items: center;
