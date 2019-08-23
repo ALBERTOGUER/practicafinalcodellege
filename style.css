@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +13,8 @@ header {
     justify-content: center;
     align-items: center;
 }
-.header{
+
+.header {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -23,7 +25,6 @@ img {
     padding: 0;
     height: 40px;
     display: inline-block;
-    
 }
 
 section {
@@ -31,18 +32,57 @@ section {
     height: 100vh;
     box-sizing: border-box;
 }
-.nav{
+
+.nav {
     display: flex;
     padding: 0;
     margin: 0;
     height: 40px;
-align-items: center;    
+    align-items: center;
 }
 
-.sec1{
+.sec1 {
     background: url(./elementos_Graf/inicial.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     /* background-attachment: fixed; */
+}
+
+.sec2 {
+    background: url('./elementos_Graf/Nuestros-aliados_img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sec2 h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 95px 0px 24px;
+    font-size: 35px;
+}
+
+.secText_testimonios h1 {
+    text-align: center;
+    color: #0264fb;
+    padding-top: 95px;
+    padding-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.secText_footer {
+    background: url('./elementos_Graf/background_footer.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.sec4 h1 {
+    text-align: center;
+    color: #0264fb;
+    padding-top: 95px;
+    padding-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
 }
