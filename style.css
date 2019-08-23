@@ -14,12 +14,6 @@ header {
     align-items: center;
 }
 
-.header {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
 img {
     margin: 8px 0 0;
     padding: 0;
@@ -48,6 +42,7 @@ section {
     background-size: cover;
     background-position: center center;
     /* background-attachment: fixed; */
+    padding: 412px 80px 0px;
 }
 
 .sec2 {
@@ -86,4 +81,58 @@ section {
     padding-top: 95px;
     padding-bottom: 24px;
     font-family: 'Montserrat', sans-serif;
+    height: 62px;
+    width: 174px;
+    border-radius: 50px 0 50px 0;
+    padding: 10px 32px;
+    box-sizing: border-box;
+    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.sec1 div h1,
+h2 {
+    margin: 0;
+    font-size: 66px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sec1 div h1 {
+    font-size: 95px;
+    position: relative;
+    color: transparent;
+    width: 21.7%;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.sec1 div h1:before {
+    overflow: hidden;
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000;
+    animation: type 4s steps(4) infinite;
+}
+
+@keyframes type {
+    0% {
+        width: 0%;
+    }
+    70% {
+        width: 100%;
+    }
+    90% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+.sec1 div h2 {
+    font-weight: lighter;
+    font-size: 5vw;
 }
