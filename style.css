@@ -14,6 +14,8 @@ header {
     align-items: center;
     padding: 12px 120px 18px;
     box-sizing: border-box;
+    z-index: 2;
+
 }
 
 img {
@@ -94,6 +96,7 @@ h2 {
     left: 0;
     color: #000;
     animation: type 4s steps(4) infinite;
+    z-index: 0;
 }
 
 @keyframes type {
@@ -152,4 +155,32 @@ h2 {
     padding-top: 95px;
     padding-bottom: 24px;
     font-family: 'Montserrat', sans-serif;
+}
+.secText{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.secText h1{
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    line-height: 1.24;
+    margin: 0 auto;
+    display: block;
+    padding-top: 95px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #0264fb;
+}
+.secText p{
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+}
+.divinin{
+    margin: 0 137px;
+    padding: 0 16px;
+    height: 255px;
 }
