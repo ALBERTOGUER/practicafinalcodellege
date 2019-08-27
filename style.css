@@ -113,7 +113,7 @@ section {
 }
 
 .sec1 div h2 {
-    font-weight: 400;
+    font-weight: 400Se;
     font-size: 5vw;
 }
 
@@ -156,9 +156,11 @@ section {
 }
 
 .secText {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
 }
 
 .secText h1 {
@@ -252,8 +254,6 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
 }
 
 #dos {
@@ -268,9 +268,9 @@ section {
     align-items: center;
     justify-content: space-between;
     /* padding: 0; */
-
 }
-.spanini{
+
+.spanini {
     margin: 0px;
     border-radius: 50px 50px 50px 50px;
     background: blue;
@@ -281,15 +281,110 @@ section {
     font-size: 40px;
     display: flex;
     align-items: center;
-
-
 }
-.pro{
-   
-  
-  font-size: 26px;
+
+.pro {
+    font-size: 26px;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+.carrusel {
+    padding: 0 40px;
+    /* background: blue; */
+    box-sizing: border-box;
+    width: 975px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.carruselin {
+    box-sizing: border-box;
+    width: 800px;
+    height: 116px;
+    /* background: #000; */
+    margin: 0px 47.5px;
+    padding: 0px 20px;
+    display: flex;
+}
+.personas{
+    /* padding: 8px 16px; */
+    width: 190px;
+    height: 100%;
+    /* background: white; */
+    box-sizing: border-box;
     
 
+}
+.seccionsini{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 0px;
+    /* background: teal; */
+}
+
+.otro{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+.otro img{
+width: 38px;
+height: 38px;
+}
+.zona
+{
+    /* background: #2de115; */
+    height: 100%;
+    width: 69%;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nombre{
+    font-family: Roboto,-apple-system,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.lugar{
+    font-family: Roboto,-apple-system,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #757575;
+    font-weight: 300;
+    font-size: 14.4px;
+}
+.slider{
+  
+    /* margin-left: 980px; */
+    overflow: hidden;
+    width: 975px;
+    box-sizing: border-box;
+}
+.slider1{
+    display: flex;
+    width: 300%;
+    height: 100%;
+    box-sizing: border-box;
+    height: 330px;
+    animation: cambio 20s ease-in-out infinite alternate;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    33%{margin-left: 0;}
+
+    40%{margin-left: -100%;}
+    66%{margin-left: -100%;}
+
+    
+    75%{margin-left: -200%;}
+    100%{margin-left: -200%;}
 }
