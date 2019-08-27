@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
 }
 
 header {
@@ -114,7 +115,7 @@ h2 {
 }
 
 .sec1 div h2 {
-    font-weight: lighter;
+    font-weight: 400Se;
     font-size: 5vw;
 }
 
@@ -123,6 +124,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    /* display: block; */
+    /* position: absolute; */
+    /* top: 2500px; */
+    margin-top: 200px;
 }
 
 .sec2 h1 {
@@ -157,9 +162,10 @@ h2 {
 }
 
 .secText {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .secText h1 {
@@ -174,6 +180,7 @@ h2 {
     padding-bottom: 24px;
     text-align: center;
     color: #0264fb;
+    font-weight: 400;
 }
 
 .secText p {
@@ -185,6 +192,22 @@ h2 {
     margin: 0 137px;
     padding: 0 16px;
     height: 255px;
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+}
+
+#full {
+    padding: 25px 25px 0px;
+    margin: 0px;
+    width: 800px;
+    height: 200px;
+    /* background: url(./elementos_Graf/codellege-logo-full-color.svg) */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* display: block; */
+    position: absolute;
+    left: 18vw;
+    display: block;
 }
 
 .padre_softtk {
@@ -223,4 +246,264 @@ h2 {
     height: 10em;
     /* margin-left: auto;
     margin-right: auto; */
+}
+
+.bco_sftk {}
+
+#cuadro {
+    padding: 16px;
+    margin-right: 234px;
+    width: 335px;
+    height: 180px;
+    border-bottom: dashed 4px;
+    border-right: dashed 4px;
+    border-color: #0264fb;
+    /* border: 20px; */
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#cuadro1 {
+    padding: 16px;
+    width: 335px;
+    height: 180px;
+    border-bottom: dashed 4px;
+    border-left: dashed 4px;
+    border-color: #0264fb;
+    margin: 0;
+    /* border: 20px; */
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#secciones {
+    /* margin-top: 200px; */
+    width: 68%;
+    height: 300px;
+    ;
+    display: flex;
+    align-items: space-between;
+    margin: 200px 155px 0px 188px;
+    position: relative;
+}
+
+#uno {
+    width: 250px;
+    height: 58px;
+    background: white;
+    position: absolute;
+    border-radius: 40px 50px 50px 0;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dos {
+    width: 300px;
+    height: 58px;
+    position: absolute;
+    border-radius: 50px 40px 0px 50px;
+    top: 150px;
+    left: 652px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0; */
+}
+
+.spanini {
+    margin: 0px;
+    border-radius: 50px 50px 50px 50px;
+    background: blue;
+    height: 58px;
+    width: 58px;
+    color: white;
+    justify-content: center;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.pro {
+    font-size: 26px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carrusel {
+    padding: 0 40px;
+    /* background: blue; */
+    box-sizing: border-box;
+    width: 975px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.carruselin {
+    box-sizing: border-box;
+    width: 800px;
+    height: 116px;
+    /* background: #000; */
+    margin: 0px 47.5px;
+    padding: 0px 20px;
+    display: flex;
+}
+
+.personas {
+    /* padding: 8px 16px; */
+    width: 190px;
+    height: 100%;
+    /* background: white; */
+    box-sizing: border-box;
+}
+
+.seccionsini {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 0px;
+    /* background: teal; */
+}
+
+.otro {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.otro img {
+    width: 38px;
+    height: 38px;
+}
+
+.zona {
+    /* background: #2de115; */
+    height: 100%;
+    width: 69%;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombre {
+    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.lugar {
+    font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #757575;
+    font-weight: 300;
+    font-size: 14.4px;
+}
+
+.slider {
+    /* margin-left: 980px; */
+    overflow: hidden;
+    width: 975px;
+    box-sizing: border-box;
+}
+
+.slider1 {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    box-sizing: border-box;
+    height: 330px;
+    animation: cambio 20s ease-in-out infinite alternate;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    33% {
+        margin-left: 0;
+    }
+    40% {
+        margin-left: -100%;
+    }
+    66% {
+        margin-left: -100%;
+    }
+    75% {
+        margin-left: -200%;
+    }
+    100% {
+        margin-left: -200%;
+    }
+}
+
+.secTextin {
+    display: block;
+}
+
+.secTextin h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    text-align: center;
+    color: #0264fb;
+    font-weight: 400;
+    line-height: 1.24;
+    margin: auto;
+    display: block;
+    font-size: 35px;
+    padding: 95px 0px 24px;
+}
+
+.secTextin .contenedor {
+    box-sizing: border-box;
+    width: 800px;
+    height: 628px;
+    padding: 40px 10px 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedores2 {
+    width: 380px;
+    height: 378px;
+    margin: 45px 0px;
+    padding: 16px;
+    /* background-color: rgba(88, 89, 91, 0.75); */
+    box-sizing: border-box;
+}
+
+.contenedores3 {
+    background-color: rgba(88, 89, 91, 0.75);
+    width: 100%;
+    height: 290px;
+    position: relative;
+}
+
+.contenedores4 {
+    width: 100%;
+    height: 56px;
+    background: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+}
+
+.contenedores3 img {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: -60px;
 }
