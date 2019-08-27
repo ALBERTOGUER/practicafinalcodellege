@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
 }
 
 header {
@@ -15,7 +16,6 @@ header {
     padding: 12px 120px 18px;
     box-sizing: border-box;
     z-index: 2;
-
 }
 
 img {
@@ -52,8 +52,7 @@ section {
     padding: 412px 80px 0px;
 }
 
-.nav>span,
-i {
+.nav>span, i {
     margin: 0 8px;
     font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -71,8 +70,7 @@ i {
     font-size: 18px;
 }
 
-.sec1 div h1,
-h2 {
+.sec1 div h1, h2 {
     margin: 0;
     font-size: 66px;
     font-family: 'Montserrat', sans-serif;
@@ -115,7 +113,7 @@ h2 {
 }
 
 .sec1 div h2 {
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 5vw;
 }
 
@@ -156,13 +154,14 @@ h2 {
     padding-bottom: 24px;
     font-family: 'Montserrat', sans-serif;
 }
-.secText{
+
+.secText {
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
-
 }
-.secText h1{
+
+.secText h1 {
     width: 100%;
     text-align: center;
     font-family: Montserrat;
@@ -174,15 +173,123 @@ h2 {
     padding-bottom: 24px;
     text-align: center;
     color: #0264fb;
+    font-weight: 400;
 }
-.secText p{
+
+.secText p {
     text-align: center;
-    font-family: Open Sans,sans-serif;
+    font-family: Open Sans, sans-serif;
 }
-.divinin{
+
+.divinin {
     margin: 0 137px;
     padding: 0 16px;
     height: 255px;
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+}
+
+#full {
+    padding: 25px 25px 0px;
+    margin: 0px;
+    width: 800px;
+    height: 200px;
+    /* background: url(./elementos_Graf/codellege-logo-full-color.svg) */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* display: block; */
+    position: absolute;
+    left: 18vw;
+    display: block;
 }
 
 .bco_sftk {}
+
+#cuadro {
+    padding: 16px;
+    margin-right: 234px;
+    width: 335px;
+    height: 180px;
+    border-bottom: dashed 4px;
+    border-right: dashed 4px;
+    border-color: #0264fb;
+    /* border: 20px; */
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#cuadro1 {
+    padding: 16px;
+    width: 335px;
+    height: 180px;
+    border-bottom: dashed 4px;
+    border-left: dashed 4px;
+    border-color: #0264fb;
+    margin: 0;
+    /* border: 20px; */
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#secciones {
+    /* margin-top: 200px; */
+    width: 68%;
+    height: 300px;
+    ;
+    display: flex;
+    align-items: space-between;
+    margin: 200px 155px 0px 188px;
+    position: relative;
+}
+
+#uno {
+    width: 250px;
+    height: 58px;
+    background: white;
+    position: absolute;
+    border-radius: 40px 50px 50px 0;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+#dos {
+    width: 300px;
+    height: 58px;
+    position: absolute;
+    border-radius: 50px 40px 0px 50px;
+    top: 150px;
+    left: 652px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0; */
+
+}
+.spanini{
+    margin: 0px;
+    border-radius: 50px 50px 50px 50px;
+    background: blue;
+    height: 58px;
+    width: 58px;
+    color: white;
+    justify-content: center;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+
+
+}
+.pro{
+   
+  
+  font-size: 26px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
